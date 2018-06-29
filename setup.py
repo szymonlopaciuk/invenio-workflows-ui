@@ -72,7 +72,7 @@ SETUP_REQUIRES = [
 
 INSTALL_REQUIRES = [
     'autosemver~=0.2,>=0.2',
-    'elasticsearch-dsl~=2.0,>=2.2.0',
+    'elasticsearch-dsl>=2.4.0,<6.0',
     'Flask-BabelEx>=0.9.2',
     'invenio-access~=1.0,>=1.0.1',
     'invenio-search>=1.0.0a5',
